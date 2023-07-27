@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/* THIS IS NAVBAR */
+header {
+  width: 100%;
+  /* height: 100vh;
+  background: url("./Images/headerImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  background-color: #ffffff;
+
+  position: relative;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.logo {
+  font-family: sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.menu a:hover {
+  color: red;
+}
+.searchIcon {
+  width: 20px;
+}
+.hamburgur {
+  width: 20px;
+  margin-left: 20px;
+}
+/* THIS IS NAVBAR */
+
+.headerbg{
+  background: url("/Images/headerImg.jpg") no-repeat center center / cover;
+ height: 60rem;
+}
+.blurbgdiv {
+  padding: 50px 30px;
+  background-color: rgb(173, 162, 162);
+  background-color: rgba(238, 232, 232, 0.4);
+  position: absolute;
+  height: 46vh;
+  z-index: 0;
+  width: 558px;
+  margin-top: 50px;
+}
+.heading {
+  font-size: 75px;
+  color: #435943;
+}
+.para {
+  font-size: 22px;
+  margin-top: 20px;
+  
+}
+.columnright {
+  background: url("/Images/headerImg.jpg") no-repeat center center / cover;
+}
+.dotImg {
+  width: 280px;
+}
+/* -------------------------ICONS DIV-----------------------------------------------------*/
+.iconsDiv {
+  padding: 30px 30px;
+  background-color: #dddddd;
+}
+.iconss {
+  display: flex;
+  justify-content: space-evenly;
+}
+.smallIcon {
+  width: 250px;
+}
+
+.head2 {
+  font-size: 55px;
+  color: #435943;
+}
+.head3 {
+  font-size: 40px;
+  
+}
+.div1 {
+  padding: 50px 30px;
+}
+.div2 {
+  padding: 50px 30px;
+  gap: 5rem;
+}
+.hotdealicon {
+  width: 50px;
+}
+.iconsText{
+  font-size: 34px;
+  font-weight: bold;
+
+
+}
+.aboutUs{
+  padding:80px 40px ;
+}
+.aboutUsBtn{
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 4px 7px 21px 1px #888888;
+
+}
+.gallaryImg{
+  width: 100%;
+}
+.arrowImg{
+  width: 20px;
+}
+.Product{
+  padding:80px 40px ;
+}
+.navpilbtn{
+
+}
+.navpilbtn .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:#000000;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+.navpilbtn .nav-link {
+color: #8b8686;
+}
+.card-body{
+  background-color: rgb(231 242 245);;
+}
+.furniture{
+  width: 100%;
+  height: 300px;
+}
+.close{
+  width:30px;
+  position:absolute;
+  top:0%;
+  right: 0%;
+  
+}
+.happyclient{
+  background: url("/Images/curviBg.webp") no-repeat center center / cover;
+  height: 40rem;
+  padding: 50px 30px;
+}
+.clientsection{
+  padding: 20px 100px;
+}
+.bolder{
+  font-weight: 700;
+}
+.clientsection{
+  margin-left: 365px;
+}
+.footer{
+  background-color:#435943;
+  color: #ffffff;
+  
+}
+.getstart{
+  background-color:rgb(82 143 101);
+  color: #ffffff;
+  padding: 8px 40px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 20px;
+}
+.getstart2{
+  background-color: #ffffff;
+  color: rgb(61, 90, 70);
+  padding: 8px 40px;
+  border-radius: 20px;
+  border: none;
+}
+.login {
+  margin: auto;
+  width: 500px;
+  margin-top: 120px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  padding: 30px 20px;
+  display: flex;
+}
+.form{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.loginBtn{
+  border:none;
+  background-color: #435943;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.label{
+font-size: 20px;
+font-weight: bold;
+
+}
+@media (max-width:1400px) {
+  
+  .smallIcon{
+    width: 100%;
+    margin: 0px 20px;
+  }
+}
+@media (max-width:1024px) {
+  .blurbgdiv {
+    height: 55vh;
+  }
+  .clientsection{
+    margin-left: 135px;
+  }
+}
+@media (max-width:768px) {
+  .happyclient{
+    height: 60rem;
+  }
+  .head2{
+    font-size:32px
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+}
+@media (max-width:460px) {
+  .blurbgdiv {
+    height: 70;
+    width: 300px;
+
+  }
+  .heading{
+font-size: 30px;
+  }
+  .happyclient{
+    height: 70rem;
+  }
+  .clientsection {
+    margin-left: 0px;
+}
+}
